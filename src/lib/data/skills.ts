@@ -1,7 +1,7 @@
 export const skills = [
   {
     category: "Technical Skills",
-    items: ["Software Engineering", "System Architecture", "Driver Development", "Cloud Solutions"]
+    items: ["Software Engineering", "System Architecture", "Driver Development", "AWS Cloud Solutions"]
   },
   {
     category: "Management",

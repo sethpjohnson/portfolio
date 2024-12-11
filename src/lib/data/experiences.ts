@@ -37,7 +37,7 @@ export const experiences = [
     ]
   },
   {
-    title: "Sales Engineer",
+    title: "Armor Systems and Security, Inc.",
     company: "Sales and System Design, Lead Programmer",
     period: "2006 - 2009",
     description: [

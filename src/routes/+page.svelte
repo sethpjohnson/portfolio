@@ -11,11 +11,11 @@
 <div class="min-h-screen bg-gray-100">
   <Header />
   <main>
-    <About />
-    <WorkProjects />
-    <SideProjects />
+    <!-- <About /> -->
     <Experience />
     <Skills />
+    <WorkProjects />
+    <SideProjects />
     <Education />
   </main>
   <footer class="bg-gray-950 text-white py-8">
