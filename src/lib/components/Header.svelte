@@ -1,5 +1,6 @@
 <script lang="ts">
     import { Github, Linkedin, Mail, Mic, Hash } from "lucide-svelte";
+    import { base } from "$app/paths";
 </script>
 
 <header class="relative overflow-hidden">
@@ -12,8 +13,8 @@
                 class="w-48 h-48 rounded-full overflow-hidden bg-white/20 flex-shrink-0 ring-4 ring-white/30 shadow-lg shadow-black/50"
             >
                 <img
-                    src="/images/seth-1.jpg"
-                    alt="Profile placeholder"
+                    src="{base}/images/seth-1.jpg"
+                    alt="Seth Johnson"
                     class="w-full h-full object-cover"
                 />
             </div>

@@ -1,5 +1,6 @@
 <script>
   import { education } from "$lib/data/education";
+  import { base } from "$app/paths";
 </script>
 
 <section class="py-16 bg-gray-50" id="education">
@@ -9,7 +10,7 @@
       {#each education as item}
         <div class="flex flex-row gap-4 items-center">
           <div class="flex-shrink-0">
-            <img src={item.image} alt={item.title} class="w-16 h-16 flex-shrink-0" />
+            <img src={`${base}${item.image}`} alt={item.title} class="w-16 h-16 flex-shrink-0" />
           </div>
           <div>
             <p>

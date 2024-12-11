@@ -1,5 +1,6 @@
 <script lang="ts">
   import { workProjects } from '$lib/data/workProjects';
+  import { base } from "$app/paths";
 </script>
 
 <section class="py-16 bg-gray-50" id="work-projects">
@@ -9,7 +10,7 @@
       {#each workProjects as project}
         <div class="group relative w-full aspect-square rounded-xl overflow-hidden shadow-lg max-w-[280px] sm:max-w-none mx-auto">
           <img
-            src={project.image}
+            src={`${base}${project.image}`}
             alt={project.title}
             class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:rotate-2"
           />

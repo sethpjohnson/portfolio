@@ -1,5 +1,6 @@
 <script lang="ts">
   import { sideProjects } from '$lib/data/sideProjects';
+  import { base } from "$app/paths";
 </script>
 
 <section class="py-16 bg-white" id="side-projects">
@@ -15,7 +16,7 @@
           style={project.link ? 'cursor: pointer' : ''}
         >
           <img
-            src={project.image}
+            src={`${base}${project.image}`}
             alt={project.title}
             class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:rotate-2"
           />
